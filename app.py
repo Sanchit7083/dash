@@ -7,7 +7,7 @@ import streamlit as st
 # Load the dataset
 @st.cache
 def load_data():
-    return pd.read_csv("C:/Users/Sanchit Gaikwad/Desktop/food_orders_new_delhi.csv")
+    return pd.read_csv("food_orders_new_delhi.csv")
 
 # Load data and perform necessary cleaning
 food_orders = load_data()
